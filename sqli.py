@@ -69,6 +69,6 @@ def sqli(url, payloads):
     print("[+] No SQL Injection vulnerability found.")
 
 # Main execution
-if __name__ == "_main_":
+if __name__ == "__main__":
     url, payloads = user_url()
     sqli(url, payloads)
